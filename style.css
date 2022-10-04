@@ -1,0 +1,120 @@
+body{
+  background-color: ivory;
+}
+header{
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: black;
+    text-decoration-color: white;
+  }
+  .image-logo{
+    cursor: pointer;
+    margin-right:0px;
+    margin-left: 0px;
+  }
+  .logo{
+    cursor: pointer;
+    font-size: 34px;
+    font-family: fantasy;
+    color: white;
+    margin-right: auto;
+  }
+  
+  .navlinks{
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .navlinks li{
+    display: inline;
+    float: right;
+    padding: 0px 30px;
+    
+  }
+  
+  .navlinks li a{
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+  }
+  
+  .navlinks li a:hover{
+    color: greenyellow;
+  }
+  
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.nav-bar{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    text-decoration-color: white;
+}
+
+.left{
+    width: 20%;
+    background-color: black;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-top-color: ivory;
+    border-bottom-color: ivory;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.left a{
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+    color: white;
+    background-color: white;
+}
+
+.left a h1{
+    margin-bottom: 30px;
+    font-family: 'Segoe UI';
+}
+.first{
+  margin-top: 200px;
+}
+.left a:hover{
+    color: greenyellow;
+}
+.right{
+    width: 80%;
+    background-image: url(images/agro.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+    background-position: bottom;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 250px;
+}
+.footer h1{
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+}
+.footer h2{
+  text-decoration: none;
+  text-align: left;
+  color: white;
+  margin-left: 100px;
+}
+.footer h5{
+  color: white;
+  text-align: center;
+}
